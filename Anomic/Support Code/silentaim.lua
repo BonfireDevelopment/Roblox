@@ -255,6 +255,10 @@ mt.__namecall = newcclosure(function(r,...)
         args[5] = itemlist[args[3]].Accuracy   
         return backupnamecall(r,unpack(args))
     end
+    if tostring(getnamecallmethod()) == "Kick" then
+        wait(4e4)
+        return
+    end
     return backupnamecall(r, ...)
 end)
 mt.__index = newcclosure(function(t, k)
