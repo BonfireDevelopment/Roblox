@@ -1,0 +1,1 @@
+hookfunc(F,function()  end)
