@@ -241,7 +241,7 @@ local s,e = pcall(function()
     itemlist = loadstring(decompile(game:GetService("ReplicatedStorage"):WaitForChild("Client"):WaitForChild("ItemList")))()
 end)
 if not s then 
-    itemlist = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Bonfire-Anomic/main/itemlist.lua"))()
+    itemlist = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/itemlist.lua"))()
 end
 
 mt.__namecall = newcclosure(function(r,...)
