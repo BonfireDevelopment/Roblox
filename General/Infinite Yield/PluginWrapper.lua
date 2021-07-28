@@ -18,7 +18,7 @@ function PluginAPI:CreatePlugin(name, description)
 	return {PluginTable = Plugin, Functions = Functions}
 end
 --[[Example Code:
-local PluginAPI = loadstring(game:HttpGet("https://pastebin.com/raw/u7HEbm8q"))()
+local PluginAPI = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/General/Infinite%20Yield/PluginWrapper.lua"))()
 local Plugin = PluginAPI:CreatePlugin("example plugin", "made by stroketon")
 Plugin.Functions:AddCommand("notify", "notify [text]",  "Notifes", {"noti"}, function(args,speaker) 
 	notify(table.concat(args, " "))
