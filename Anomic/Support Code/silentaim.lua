@@ -254,7 +254,7 @@ mt.__namecall = newcclosure(function(r,...)
         wait(4e4)
         return
     elseif tostring(getnamecallmethod()) == "FireServer" and tostring(r) == "PlaceItem" then
-        wait(1) --gbm
+        wait(2) --gbm
     elseif tostring(getnamecallmethod()) == "FireServer" and tostring(r) == "WeaponServer" and args[1] == "Player" then
         args[5] = itemlist[args[3]].Accuracy   
         return backupnamecall(r,unpack(args))
