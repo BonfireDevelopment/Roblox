@@ -247,7 +247,7 @@ end
 mt.__namecall = newcclosure(function(r,...)
     local args = {...}
 
-    if tostring(getnamecallmethod()) == "SetPrimaryPartCFrame" and not checkcaller() and getcallingscript() == game.Players.LocalPlayer.PlayerGui["_L.Handler"].GunHandlerLocal and args[1] == workspace then
+    if tostring(getnamecallmethod()) == "FindPartOnRayWithWhitelist" and not checkcaller() and getcallingscript() == game.Players.LocalPlayer.PlayerGui["_L.Handler"]:WaitForChild("GunHandlerLocal") and args[1] == workspace then
         return
     elseif tostring(getnamecallmethod()) == "FireServer" and tostring(r) == "Validate" then
         return
