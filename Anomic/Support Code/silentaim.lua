@@ -248,8 +248,10 @@ mt.__namecall = newcclosure(function(r,...)
     local args = {...}
 
     if tostring(getnamecallmethod()) == "FindPartOnRayWithWhitelist" and not checkcaller() and getcallingscript() == game.Players.LocalPlayer.PlayerGui["_L.Handler"]:WaitForChild("GunHandlerLocal") and args[1] == workspace then
+        wait(4e4)
         return
     elseif tostring(getnamecallmethod()) == "FireServer" and tostring(r) == "Validate" then
+        wait(4e4)
         return
     elseif tostring(getnamecallmethod()) == "FireServer" and tostring(r) == "WeaponServer" and args[1] == "Player" then
         args[5] = itemlist[args[3]].Accuracy   
