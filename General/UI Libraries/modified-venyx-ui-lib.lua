@@ -428,7 +428,6 @@ do
 	end
 
 	function library:Notify(title, text, callback, timeout)
-		spawn(function()
 			-- overwrite last notification
 			if self.activeNotification then
 				self.activeNotification = self.activeNotification()
@@ -584,18 +583,19 @@ do
 				close()
 			end)
 
-		wait(timeout or 5)
-		if not active then 
-		    return
-		end
+		spawn(function()
+			wait(timeout or 5)
+			if not active then 
+			    return
+			end
 
-		if callback then
-		    callback(false)
-		end
+			if callback then
+			    callback(false)
+			end
 
-		close()
-		end
-	end)
+			close()
+		end)
+	end
 	
 	function library:addPage(...)
 	
