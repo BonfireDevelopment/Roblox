@@ -583,7 +583,6 @@ do
 				close()
 			end)
 
-		spawn(function()
 			wait(timeout or 5)
 			if not active then 
 			    return
@@ -594,7 +593,6 @@ do
 			end
 
 			close()
-		end)
 	end
 	
 	function library:addPage(...)
