@@ -17,5 +17,9 @@ return {
     "Humvee",
     "Hypercar",
     "MP",
+    "NoclippingTool",
+    "ClickTPTool",
+    "Tow Car",
+    "Money Bag",
   }
 }
