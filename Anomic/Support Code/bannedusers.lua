@@ -1,1 +1,1 @@
-return {"Bonapse", "ysername_23acc", "Tempo_Tantrum"}
+return {"Bonapse", "ysername_23acc", "FirerateOfAMinigun"}
