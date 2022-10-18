@@ -7,7 +7,6 @@ for i,v in next, workspace.Entities:GetChildren() do
             lp.Character.HumanoidRootPart.CFrame = v.PrimaryPart.CFrame
             wait(game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValue()/1000 + 0.2)
             for i=1,10 do
-                lp.Character.HumanoidRootPart.CFrame = v.PrimaryPart.CFrame
                 local args = {
                     [1] = anchortool,
                     [2] = "PickUp"
