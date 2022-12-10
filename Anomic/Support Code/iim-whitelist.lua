@@ -59,6 +59,7 @@ _G.whitelist = {
     "StateOmnia",
     "handsome727",
     "EGHFHNJYTJHN",
+    "GwoAiden",
 }
 
 _G.blacklist = {
