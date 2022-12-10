@@ -56,6 +56,7 @@ _G.whitelist = {
     "FoxyFull_Dev",
     "mx1t",
     "WinFps",
+    "StateOmnia",
 }
 
 _G.blacklist = {
