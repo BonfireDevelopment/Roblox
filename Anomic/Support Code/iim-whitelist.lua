@@ -57,6 +57,7 @@ _G.whitelist = {
     "mx1t",
     "WinFps",
     "StateOmnia",
+    "handsome727",
 }
 
 _G.blacklist = {
