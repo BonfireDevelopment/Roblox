@@ -1,5 +1,7 @@
 -- For Illegal Item Mode. To add to these lists, DM me.
 
+local lp = game.Players.LocalPlayer
+
 _G.whitelist = {
     "0lsaaa",
     "BonfireDeveloper",
