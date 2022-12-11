@@ -8,7 +8,7 @@ _G.whitelist = {
     "wSpooks",
     "Exturnaly",
     "thefireboy138",
-    "Mudslinger",
+    "Mudsslinger",
     "JumpingMar",
     "s2n_taz",
     "BonfireBot1",
