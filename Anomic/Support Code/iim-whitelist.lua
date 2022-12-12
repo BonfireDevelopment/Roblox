@@ -71,6 +71,7 @@ _G.whitelist = {
     "MMARC0Z",
     "ZulkZolnierz",
     "imgaret",
+    "AlphonsoLerring",
 }
 
 _G.blacklist = {
