@@ -13,6 +13,7 @@ _G.whitelist = {
     "JumpingMar",
     "s2n_taz",
     "BonfireBot1",
+    "DevinsFeelings",
 
     "alexxx720",
     "InxSpamrev",
