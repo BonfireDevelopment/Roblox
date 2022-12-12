@@ -5,6 +5,7 @@ _G.whitelist = {
     "BonfireDeveloper",
     "Bonamed",
     "Deniz_lxve99",
+    "deniz_lxve99",
     "wSpooks",
     "Exturnaly",
     "thefireboy138",
@@ -65,6 +66,7 @@ _G.whitelist = {
     "vxnlsh",
     "TheNobleFish",
     "ike_nine9",
+    "yahelelcrack1",
 }
 
 _G.blacklist = {
