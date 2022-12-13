@@ -68,7 +68,6 @@ _G.whitelist = {
     "TheNobleFish",
     "ike_nine9",
     "yahelelcrack1",
-    "MMARC0Z",
     "ZulkZolnierz",
     "imgaret",
     "AlphonsoLerring",
