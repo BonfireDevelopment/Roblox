@@ -74,6 +74,7 @@ _G.whitelist = {
     "LupinDev",
     "sapovolador",
     "CO0lpeke_Alt",
+    "xJasonxxx1",
 }
 
 _G.blacklist = {
