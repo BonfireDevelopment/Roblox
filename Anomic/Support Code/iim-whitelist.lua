@@ -79,6 +79,7 @@ _G.whitelist = {
 _G.blacklist = {
     "wst_g",
     "umboted17",
+    "MMARC0Z",
 }
 
 _G.global_illegals = {
