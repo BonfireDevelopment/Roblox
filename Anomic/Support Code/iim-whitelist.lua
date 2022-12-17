@@ -81,6 +81,7 @@ _G.whitelist = {
     "CodetheScripter",
     "TheBizzareGuyYT",
     "GoodPlayer_PL32",
+    "goldfish380",
 }
 
 _G.blacklist = {
