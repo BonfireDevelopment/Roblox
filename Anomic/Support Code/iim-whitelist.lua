@@ -77,6 +77,7 @@ _G.whitelist = {
     "xJasonxxx1",
     "ah7md2down",
     "Gabetheman1293",
+    "therobot890",
 }
 
 _G.blacklist = {
