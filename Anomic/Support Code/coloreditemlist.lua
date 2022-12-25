@@ -21,5 +21,7 @@ return {
     "ClickTPTool",
     "Tow Car",
     "Money Bag",
+    "Deathwish",
+    "Knou",
   }
 }
