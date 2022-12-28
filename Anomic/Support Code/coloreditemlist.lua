@@ -14,8 +14,6 @@ return {
   {
     "Battle Rifle MKII",
     "LMG",
-    "Humvee",
-    "Hypercar",
     "MP",
     "NoclippingTool",
     "ClickTPTool",
@@ -23,5 +21,6 @@ return {
     "Money Bag",
     "Deathwish",
     "Knou",
+    "Caracal Van",
   }
 }
