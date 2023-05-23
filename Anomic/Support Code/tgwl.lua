@@ -1,1 +1,1 @@
-"BonfireDeveloper,"
+BonfireDeveloper
