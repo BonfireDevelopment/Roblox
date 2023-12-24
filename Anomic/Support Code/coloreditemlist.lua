@@ -10,6 +10,7 @@ return {
     "AR",
     "Carbine",
     "Bullpup Rifle",
+    "Combat Shotgun",
   },
   {
     "Battle Rifle MKII",
