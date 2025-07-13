@@ -227,6 +227,8 @@ Patch notes:
   - Counter Diner
     - Can place up to 4 food items
   - Exit Sign
+  - Fine China (Man)
+  - Fine China (Woman)
   - Potted Plant Large
   - Pyramid
   - Pyramid (Small)
